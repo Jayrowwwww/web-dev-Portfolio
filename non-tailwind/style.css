@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    height: 80px;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
