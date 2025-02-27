@@ -13,6 +13,8 @@ header{
     background-color: white;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     height: 80px;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
@@ -98,6 +100,13 @@ header{
     
 }
 
+.proj{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
 .title{
     text-align: center;
     padding: 50px;
@@ -105,7 +114,8 @@ header{
 
 .box{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 50px;
     padding-top: 20px;
 }
 
@@ -139,6 +149,33 @@ header{
 }
 
 .boxes:hover{
-    transform: scale(1.03);
+    transform: scale(1.01);
     box-shadow: -1px 2px 46px -16px rgba(0,0,0,0.75);
+}
+
+.bot{
+    margin-top: 8rem;
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 40px;
+    outline: none;
+    background-color: rgb(255, 193, 78);
+    transition: all 0.1s ease-in;
+}
+
+.bot a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.bot:hover{
+    background-color: black;
+    transform: scale(1.01);
+}
+
+/* background */
+.container-background{
+    height: 100vh;
 }
