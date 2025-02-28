@@ -17,6 +17,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#background">Background</a></li>
+                <li><a href="#skill">Skills</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </nav>
@@ -78,10 +79,10 @@
         </section>  
         <hr>
         <!-- fourth page -->
-        <div class="cont-title">
-            <h1>Background</h1>
-        </div>
         <section class="container-background" id="background">
+            <div class="cont-title">
+                <h1>Background</h1>
+            </div>
             <div class="back-content">
                 <div class="cont">
                     <div class="elem">
@@ -89,7 +90,7 @@
                             <img src="./pic/elem-logo.jpg" alt="">
                         </div>
 
-                        <div class="grad-back">
+                        <div class="elem-back">
                             <h1>Graduated from Alegria Elementary School</h1>
                             <h3>on 2018</h3>
                             <p>at Barangay Alegria, Cordova, Cebu</p>
@@ -108,7 +109,17 @@
                         </div>
                     </div>      
 
-                    <div class="elem">
+                    <div class="high">
+                        <div class="high-pic">
+                            <img src="./pic/cccs-logo.png" alt="">
+                        </div>
+
+                        <div class="high-back">
+                            <h1>Graduated from Cordova Catholic Cooperative School</h1>
+                            <h3>on 2024</h3>
+                            <p>at Barangay Poblacion, Cordova, Cebu</p>
+                        </div>
+                        
                         <div class="para">
                             <p>
                                 <ul>
@@ -120,25 +131,15 @@
                                 </ul>
                             </p>
                         </div>
-
-                        <div class="grad-back-high">
-                            <h1>Graduated from Cordova Catholic Cooperative School</h1>
-                            <h3>on 2024</h3>
-                            <p>at Barangay Poblacion, Cordova, Cebu</p>
-                        </div>
-                        
-                        <div class="high-pic">
-                            <img src="./pic/cccs-logo.png" alt="" class="cccs-logo">
-                        </div>
                     </div>      
 
-                    <div class="elem">
-                        <div class="elem-pic">
+                    <div class="coll">
+                        <div class="coll-pic">
                             <img src="./pic/cpclogo.jpg" alt="">
                         </div>
 
-                        <div class="grad-back">
-                            <h1>Curently studying in Cordova Public College</h1>
+                        <div class="coll-back">
+                            <h1>Currently studying in Cordova Public College</h1>
                             <h3>Present</h3>
                             <p>at Barangay Gabi, Cordova, Cebu</p>
                         </div>
@@ -158,6 +159,48 @@
                 </div> 
             </div>     
         </section>
+        <hr>
+
+        <!-- SKILLS -->
+        <section class="skill" id="skill">
+            <div class="skill-title">
+                <h1>Skills</h1>
+            </div>
+            <div class="skill-table">
+                <div class="skills">
+                    <div class="div1">Kamehameha</div>
+                    <div class="div2">Fusion</div>
+                    <div class="div3">Kaioken</div>
+                    <div class="div4">Room</div>
+                    <div class="div5">Gear 5</div>
+                    <div class="div6">Oni Giri</div>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <!-- contact form -->
+         <section class="contact" id="contact">
+            <div class="contact-me">
+                <h1>Contact Me</h1>
+            <form action="#" method="post">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+            </div>
+         </section>
     </main>
 
 </body>
