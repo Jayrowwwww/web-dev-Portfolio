@@ -9,23 +9,24 @@
 </head>
 <body>
     <header>
-        <h1 class="logo">Jerreh</h1>
-
+        <div class="header"> 
+            <h1 class="logo">Jerreh</h1>
         <nav class="navbar">
             <ul>
-                <li><a href="">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#skill">Skills</a></li>
                 <li><a href="#background">Background</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
+    </div>
+
     </header>
 
     <main>
         <!-- first page -->
-        <section class="container-home">
+        <section class="container-home" id="home">
             <div class="content">
                 <h2>Hello I'm</h2>
                 <h1>Jerreh Romer</h1>
@@ -74,28 +75,19 @@
                     </div>
                 </div>
 
-                <button class="bot"><a href="#">See more</a></button>
+                <button class="bot" id="openModal">See more</button>
+
+                <div class="modal" id="modal">
+                    <div class="modal-inner">
+                        <h1>HELLO</h1>
+                        <p>Website is still on going but still thank you for looking after.</p>
+                        <button id="closeModal">OK</button>
+                    </div>
+                </div>
+            
+                <script src="script.js"></script>
             </div>
         </section>  
-        <hr>
-
-        <!-- SKILLS -->
-        <section class="skill" id="skill">
-            <div class="skill-title">
-                <h1>Skills</h1>
-            </div>
-            <div class="skill-table">
-                <div class="skills">
-                    <div class="div1">Kamehameha</div>
-                    <div class="div2">Fusion</div>
-                    <div class="div3">Kaioken</div>
-                    <div class="div4">Room</div>
-                    <div class="div5">Gear 5</div>
-                    <div class="div6">Oni Giri</div>
-
-                </div>
-            </div>
-        </section>
         <hr>
 
         <!-- fourth page -->
@@ -176,12 +168,14 @@
                 </div> 
             </div>     
         </section>
-        <hr>
     
         <!-- contact form -->
          <section class="contact" id="contact">
-            <div class="contact-me">             
-                <form action="#" method="post">
+            <div class="contact-header">
+                <h1>Get in Touch</h1>
+            </div>
+            <div class="contact-me">       
+                <form>
                     <h1>Contact Me</h1>
                     <div class="input-group">
                         <label for="name">Full Name</label>
@@ -201,18 +195,9 @@
                     </div>
                     <div class="submit">
                         <button type="submit" class="btn" id="openModal">Submit</button>
-
-                        <div class="modal" id="modal">
-                            <img src="/pic/404-tick.png">
-                            <h1>Thank You!</h1>
-                            <p>Your details has been successfully submitted. Thanks!</p>
-                            <button type="ok" id="closeModals">OK</button>
-                        </div>
-
-                        <script src="script.js"></script>
+                    </div>
                     </div>
                 </form>
-            </div>
          </section>
     </main>
 
