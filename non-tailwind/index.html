@@ -16,9 +16,9 @@
                 <li><a href="">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
-                <li><a href="#background">Background</a></li>
                 <li><a href="#skill">Skills</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="#background">Background</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -78,6 +78,26 @@
             </div>
         </section>  
         <hr>
+
+        <!-- SKILLS -->
+        <section class="skill" id="skill">
+            <div class="skill-title">
+                <h1>Skills</h1>
+            </div>
+            <div class="skill-table">
+                <div class="skills">
+                    <div class="div1">Kamehameha</div>
+                    <div class="div2">Fusion</div>
+                    <div class="div3">Kaioken</div>
+                    <div class="div4">Room</div>
+                    <div class="div5">Gear 5</div>
+                    <div class="div6">Oni Giri</div>
+
+                </div>
+            </div>
+        </section>
+        <hr>
+
         <!-- fourth page -->
         <section class="container-background" id="background">
             <div class="cont-title">
@@ -148,10 +168,7 @@
                             <p>
                                 <ul>
                                     <li>Achievements</li>
-                                    <li>With Honors</li>
-                                    <li>With High</li>
-                                    <li>With Gamay</li>
-                                    <li>With Sha</li>
+                                    <li>N/A</li>
                                 </ul>
                             </p>
                         </div>
@@ -160,48 +177,50 @@
             </div>     
         </section>
         <hr>
-
-        <!-- SKILLS -->
-        <section class="skill" id="skill">
-            <div class="skill-title">
-                <h1>Skills</h1>
-            </div>
-            <div class="skill-table">
-                <div class="skills">
-                    <div class="div1">Kamehameha</div>
-                    <div class="div2">Fusion</div>
-                    <div class="div3">Kaioken</div>
-                    <div class="div4">Room</div>
-                    <div class="div5">Gear 5</div>
-                    <div class="div6">Oni Giri</div>
-
-                </div>
-            </div>
-        </section>
-        <hr>
-
+    
         <!-- contact form -->
          <section class="contact" id="contact">
-            <div class="contact-me">
-                <h1>Contact Me</h1>
-            <form action="#" method="post">
-                <div class="input-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
-                <div class="input-group">
-                    <label for="email">Email Address</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="input-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="4" required></textarea>
-                </div>
-                <button type="submit">Send Message</button>
-            </form>
+            <div class="contact-me">             
+                <form action="#" method="post">
+                    <h1>Contact Me</h1>
+                    <div class="input-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="number">Contact Number</label>
+                        <input type="number" id="number" name="contact-number" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <div class="submit">
+                        <button type="submit" class="btn" id="openModal">Submit</button>
+
+                        <div class="modal" id="modal">
+                            <img src="/pic/404-tick.png">
+                            <h1>Thank You!</h1>
+                            <p>Your details has been successfully submitted. Thanks!</p>
+                            <button type="ok" id="closeModals">OK</button>
+                        </div>
+
+                        <script src="script.js"></script>
+                    </div>
+                </form>
             </div>
          </section>
     </main>
 
+    <footer>
+        <div class="main-foot">
+            <h1>All Rights Reserved © 2025</h1>
+            <p>Created by: Jerreh Romer Salera</p>
+        </div>
+    </footer>
 </body>
 </html>
