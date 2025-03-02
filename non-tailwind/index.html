@@ -84,8 +84,6 @@
                         <button id="closeModal">OK</button>
                     </div>
                 </div>
-            
-                <script src="script.js"></script>
             </div>
         </section>  
         <hr>
@@ -175,7 +173,7 @@
                 <h1>Get in Touch</h1>
             </div>
             <div class="contact-me">       
-                <form>
+                <form id="formModal">
                     <h1>Contact Me</h1>
                     <div class="input-group">
                         <label for="name">Full Name</label>
@@ -193,19 +191,37 @@
                         <label for="message">Message</label>
                         <textarea id="message" name="message" rows="4" required></textarea>
                     </div>
+                    <br><br>
                     <div class="submit">
-                        <button type="submit" class="btn" id="openModal">Submit</button>
-                    </div>
+                        <button class="btn" id="openMod"><a href="formModal.html">Submit</a></button>
                     </div>
                 </form>
-         </section>
+            </div>
+        </section>
     </main>
 
     <footer>
+        <div class="first-foot">
+            <div class="footer-tite">
+                <h2>Follow us on:</h2>
+            </div>
+            <div class="icon-foot">
+                <i class='bx bxl-meta' ></i>
+                <i class='bx bxl-facebook-circle'></i>
+                <i class='bx bxl-instagram-alt' ></i>
+                <i class='bx bxl-twitter' ></i>
+                <i class='bx bxl-tiktok' ></i>
+                <i class='bx bxl-github' ></i>
+                <i class='bx bxl-reddit'></i>
+                <i class='bx bxl-vk' ></i>
+            </div>
+        </div>
         <div class="main-foot">
-            <h1>All Rights Reserved © 2025</h1>
+            <h3>All Rights Reserved Copyright © 2025</h3>
             <p>Created by: Jerreh Romer Salera</p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
