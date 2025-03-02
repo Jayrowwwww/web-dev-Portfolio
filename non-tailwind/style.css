@@ -23,7 +23,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(255, 193, 78);
+    background-color: rgb(255, 166, 0);
     box-shadow: 0 4px 6px 1px rgb(0 0 0 / 0.1), 0 2px 4px 2px rgb(0 0 0 / 0.1);
     height: 60px;
     position: fixed;
@@ -88,7 +88,7 @@ header{
 }
 
 .navbar ul li:hover{
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(255, 193, 78);
     color: black;
 }
 
@@ -236,7 +236,7 @@ header{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    background-color: rgb(255, 193, 78);
+    background-color: rgb(255, 166, 0);
     cursor: pointer;
     transition: all 0.1s ease-in;
 }
@@ -295,7 +295,7 @@ header{
 }
 
 .modal-inner button{
-    background-color: rgb(255, 193, 78);
+    background-color: rgb(255, 166, 0);
     height: 40px;
     width: 140px;
     border: none;
@@ -482,6 +482,10 @@ header{
 
 .btn a{
     color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
     text-decoration: none;
 }
 
@@ -493,11 +497,11 @@ header{
     align-items: center;
     text-align: center;
 
-    border: 2px solid black;
     border-radius: 20px;
     height: 500px;
     margin: 150px 600px 0 600px;
     padding: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
 .inner-modal h1{
@@ -516,7 +520,7 @@ header{
     border: none;
     border-radius: 20px;
     outline: none;
-    background-color: rgb(255, 193, 78);
+    background-color: rgb(255, 166, 0);
 }
 
 .inner-modal button a{
