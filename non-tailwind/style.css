@@ -19,6 +19,7 @@ header{
     display: flex;
     justify-content: center;
 }
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -45,14 +46,13 @@ header{
     height: 50px;
     width: 860px;
     border-radius: 50px;
-    gap: 20px;
     list-style: none;
 }
 
 .navbar ul li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    text-align: center;
+    align-content: center;
     width: 150px;
     height: 40px;
     border-radius: 50px;
