@@ -6,12 +6,7 @@
 }
 
 html{
-    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
-}
-
-section{
-    scroll-snap-type: start;
 }
 
 /* navigation */
@@ -168,7 +163,7 @@ header{
 /* projects */
 .container-projects{
     height: 100vh;
-    
+    scroll-snap-align: start;
 }
 
 .proj{
@@ -193,7 +188,7 @@ header{
 }
 
 .boxes{
-    background-color: hsl(0, 0%, 97%);
+    background-color: hsl(0, 0%, 87%);
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 10px;
@@ -202,11 +197,11 @@ header{
     height: 30rem;
     width: 25.2rem;
     text-align: center;
-    transition: all 50ms ease-in;
+    transition: all 90ms ease-in;
 }
 
 .boxes img{
-    height: 300px;
+    height: 301px;
     border-top-right-radius:50px;
     border-top-left-radius:50px;
     border-bottom-right-radius: 10px;
